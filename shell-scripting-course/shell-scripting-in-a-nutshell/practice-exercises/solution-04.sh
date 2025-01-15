@@ -2,6 +2,7 @@
 
 FILE="/etc/shadow"
 
+# help test on terminal to see all the options
 if [ -e "$FILE" ]
 then
   echo "Shadow passwords are enabled."
